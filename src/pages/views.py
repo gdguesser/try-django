@@ -10,3 +10,6 @@ def contact_view(request, *args, **kwargs):
 
 def about_view(request, *args, **kwargs):
 	return render(request, "about.html", {})
+
+def index(request):
+	return render(request, 'index.html', {})
